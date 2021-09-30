@@ -1,0 +1,47 @@
+body, * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    margin: 40px 0;
+}
+
+section > .container {
+    width: 960px;
+    height: auto;
+    margin: auto;
+}
+.row {
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+    display: flex;
+}
+.column {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.row > span:nth-child(even){
+    background-color: whitesmoke;
+}
+.logo-frame {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-frame > img {
+    width: 100%;
+    height: 100%;
+}
+#icon-01 {
+    clip-path: polygon(50% 5%, 90% 30%, 90% 70%, 50% 95%, 10% 70%, 10% 30%);
+    
+
+}
